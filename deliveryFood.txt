@@ -1,0 +1,64 @@
+### **Texnik topshiriq: Ovqat yetkazib berish tizimi**
+
+#### **1. Maqsad:**
+Ovqat yetkazib berish jarayonini soddalashtirish uchun dastur yaratish. Dastur quyidagi funksiyalarni bajarishi kerak:
+- Ovqat menyusini yaratish va ko'rsatish.
+- Buyurtma qabul qilish.
+- Yetkazib beruvchi tomonidan buyurtmani yetkazish.
+
+#### **2. Asosiy obyektlar:**
+1. **Ovqat (Dish):** 
+   - Nomi (name)
+   - Narxi (price)
+
+2. **Menyu (Menu):**  
+   - Ovqatlar ro'yxati (dishes)
+
+3. **Buyurtma (Order):**
+   - Buyurtma raqami (order_id)
+   - Tanlangan ovqatlar (selected_dishes)
+   - Umumiy summa (total_price)
+
+4. **Mijoz (Customer):**
+   - Ism (name)
+   - Telefon raqami (phone)
+
+5. **Yetkazib beruvchi (DeliveryPerson):**
+   - Ism (name)
+   - Mashina raqami (vehicle_number)
+
+6. **Tizim (DeliverySystem):**  
+   - Menyuni yaratish.
+   - Buyurtma qabul qilish.
+   - Buyurtmani yetkazish.
+
+---
+
+#### **3. Vazifalar:**
+
+1. **Ovqat obyektini tuzish:**
+   - Ovqat nomi va narxini saqlash uchun klass yozish.
+   - Masalan, 'Dish' klassini tuzing.
+
+2. **Menyu obyektini tuzish:**
+   - Bir nechta ovqatlardan iborat menyu saqlash.
+   - Menyuni konsolda ko'rsatish.
+
+3. **Buyurtma obyektini tuzish:**
+   - Tanlangan ovqatlar va umumiy summani saqlash.
+   - Buyurtma raqami avtomatik hosil bo'lishi kerak.
+
+4. **Mijoz va Yetkazib beruvchi obyektlarini tuzish:**
+   - Ularning nomlari va boshqa ma'lumotlarini saqlash.
+
+5. **Tizimni yaratish:**
+   - Mijoz ovqat tanlashi, buyurtma berishi va buyurtmani yetkazib beruvchiga yuborishni tashkillashtirish.
+
+---
+
+#### **4. Kutilayotgan natija:**
+Dastur ishlatilganda quyidagilar amalga oshishi kerak:
+1. Menyu ko'rsatiladi.
+2. Mijoz menyudan ovqat tanlaydi.
+3. Buyurtma hosil qilinadi va umumiy summa ko'rsatiladi.
+4. Buyurtma yetkazib beruvchi orqali yetkaziladi.
